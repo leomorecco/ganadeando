@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!------>
+<html lang="en"> <!---Permite elegir el idioma  del sitio---> 
+  <head><!---Encabezado--->
+    <meta charset="UTF-8"/><!---Me permite visualización y a mejorar la accesibilidad y el SEO de la página --->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /><!---Permite la compatibilidad  con exploradores antiguos--->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!---Me permite el diseño responsivo --->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@;400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" >
+    <link rel="icon" href="/public/logo-Ganadeando-app.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous" ></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script defer src="/js/index.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/css/Contacto.css"></script>
+    <title>Ganadeando App</title>
+  </head>
+  <body>
+<!---Esta seccion es el header o encabezado--->
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="logo nav-link" src="/GanadeandoApp/public/logo-Ganadeando-app.ico"></a>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item"><a href="/html/Conocenos.html" class="nav-menu-link nav-link">Conócenos</a></li>
+          <li class="nav-menu-item"><a href="/html/Contatcto.html" class="nav-menu-link nav-link">Contacto</a></li>
+          <li class="nav-menu-item"><a href="/html/AnimalBovino.html" class="nav-menu-link nav-link">Animal Bovino</a></li>
+          <li class="nav-menu-item"><a href="/html/index.html" class="nav-menu-link nav-link nav-menu-link_active">Registrarse</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <form class="form">
+        <div class="form__container">
+            <h2 class="form__title">Contáctame</h2>
+            <img src="/public/Consultar AB.png" width="200px" height="150px">
+            <input type="text" class="form__input" placeholder="Nombre:"/>
+            <input type="email" class="form__input" placeholder="Email:"/>
+            <textarea class="form__input form__input--message" placeholder="Mensaje:"></textarea>
+            <input type="submit" value="Enviar" class="form__cta">
+        </div>
+    </form>
+     </body>
+   <footer>
+        <br>
+        <div class="redes-sociales">Ganadeando App</div>
+        <div class="copyright">© 2022 Todos los derechos reservados.</div>
+    </footer>
+    </body>
+</html>  

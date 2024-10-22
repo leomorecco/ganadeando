@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*Esta seccion es de contácto*/
+.form{
+    background-color: rgba(0, 128, 0, 0.712);
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin: auto;
+  }
+  .form__title{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4rem;
+  }
+  .form__container{
+    width: 100%;
+    display: grid;
+    gap:  1em;
+    grid-auto-columns: 100%;
+  
+  }
+  .form__input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #43e97b;
+    border-radius: 0.2em;
+  }
+  .form__input form__input--message{
+    resize: none;
+    padding: 1.8em  1em;
+    margin-bottom: .5em;
+  }
+  .form__cta{
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #43e97b;
+    color: green;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: 1em;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  .form .form__cta:hover{
+    background-color: rgba(250, 253, 249, 0.63);
+    cursor: pointer;
+  }
+  @media (max-width: 600px) {
+    form{
+      padding: 3.5em 1em;
+    }
+  }
+  

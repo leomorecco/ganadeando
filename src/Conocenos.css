@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 44px;
+    line-height: 40px;
+    background-image:url(/public/logo\ Ganadeando\ app.png);
+   
+  }
+/*Esta es la seccion de conóscenos carrusel*/
+
+.body{
+    width: 100%;
+    max-width: 1450px;
+    height: 100vh;
+    padding: 40px;
+    background-image: linear-gradient(rgba(5,7,12,0.75)),(rgba(5,7,12,0.75)) ,url(public/fondo\ carrusel.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*Conocenos carrusel*/
+  
+  body{
+    width: 100%;
+    max-width: 1450px;
+    height: 100vh;
+    padding: 40px;
+    background-image: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)),url(./public/pagina\ principal\ \(1\).jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    width: 50%;
+    position: relative;
+  }
+  
+  .mySlides{
+    display: none;
+  }
+  
+  .mySlides img{
+    width: 100%;
+  }
+  
+  .prev,
+  .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16%;
+    color: white;
+    font-weight: bold;
+    font-size: 180px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    -user-select: none;
+    border: solid white;
+  
+  }

@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/public/pagina\ principal\ \(1\).jpg);
+    background-position: center;
+
+    background-size: cover;
+    color:white;
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+  }
+   
+
+  .container-form{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    transition: all .5s ease-out;
+    text-decoration: none;
+    
+  }
+
+  .welcome-back{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+  }
+
+  .message{
+    padding: 1rem;
+    background-color: transparent;
+  }
+
+  .message h2{
+        font-size: 1.7rem;
+        padding: 1rem 0;
+        background-color: transparent;
+  }
+
+  .message button{
+    padding: 1rem;
+    font-weight: 400;
+    background-color:rgba(68, 184, 15, 0.863);
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: white;
+
+  }
+  
+  .message button:hover{
+    background-color:aquamarine ;
+  }
+
+  .formulario{
+    width: 400px;
+    padding: 0.2rem;
+    margin: 5rem;
+    background-color: rgba(14, 112, 7, 0.63);
+    text-align: center;
+    text-decoration: #222;
+  }
+
+.AnimalBovino .sign-up-btn{
+    text-decoration: none;
+    text-align: center;
+    text-shadow: none;
+    font-style: normal;
+    font-variant: small-caps;
+    padding:.5em ;
+    display:inline;
+    color:#fff; 
+    background-image: rgba(15, 211, 15, 0.918);
+    font-size: 1.2rem;
+  
+  }
+
+  
+   .formulario {
+    width:max-content;
+    width: 600px;
+    border-radius: 5%;
+    }
+    
+    .formulario .Eliminar{
+        width: 400px;
+        height: 500px;
+        padding: 0.2rem;
+        margin: 6rem;
+        text-align: center;
+        text-decoration: #222;
+        margin-top: 80px;
+      }
+      .header {
+        height: 60px;
+      }
+    
+      .logo {
+        font-size: 25px;
+        padding: 0 20px;
+        line-height: 60px;
+      }
+    /*Seccion barra de navegacion*/
+
+    .header {
+      background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+      height: 80px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+    
+    .nav {
+      display: flex;
+      justify-content: space-between;
+    
+      max-width: 992px;
+      margin: 0 auto;
+    }
+    
+    .nav-link {
+      color: white;
+      text-decoration: none;
+    }
+    
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      padding: 0 44px;
+      line-height: 20px;
+      background-image:url(/public/logo\ Ganadeando\ app.png);
+     
+    }
+    
+    .nav-menu {
+      display: flex;
+      margin-right: 40px;
+      list-style: none;
+    }
+    
+    .nav-menu-item {
+      font-size: 18px;
+      margin: 0 10px;
+      line-height: 80px;
+      text-transform: uppercase;
+      width: max-content;
+    }
+    
+    .nav-menu-link {
+      padding: 8px 12px;
+      border-radius: 3px;
+    }
+    
+    .nav-menu-link:hover,
+    .nav-menu-link_active {
+      background-color: #1397298c;
+      transition: 0.5s;
+    }
+    
+    /* TOGGLE */
+    .nav-toggle {
+      color: white;
+      background: none;
+      border: none;
+      font-size: 30px;
+      padding: 0 20px;
+      line-height: 60px;
+      cursor: pointer;
+    
+      display: none;
+    }
+    
+    /* MOBILE */
+    @media (max-width: 768px) {
+      body {
+        padding-top: 70px;
+      }
+    
+      .header {
+        height: 60px;
+      }
+    
+   
+    
+      .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 20px 0;
+    
+        height: calc(100% - 60px);
+        overflow-y: auto;
+    
+        left: 100%;
+        transition: left 0.3s;
+      }
+     
+      .nav-menu-item {
+        line-height: 70px;
+      }
+    
+      .nav-menu-link:hover,
+      .nav-menu-link_active {
+        background: none;
+        color: #dee7ee;
+      }
+    
+      .nav-toggle {
+           display: block;
+      }
+    
+      .nav-menu_visible {
+        left: 0;
+      }
+    
+      .nav-toggle:focus:not(:focus-visible) {
+        outline: none;
+      }
+    }
+    
+  
+  /*Seccion de actualizar Animal Bovino*/
+  
+  .form-register{
+    width: 600px;
+    padding: 50px;
+    margin: auto;
+    box-shadow: 7px 13px 37px #022b23;
+    margin-top: 70px;
+    border-radius: 20px;
+    font-family: 'calibri';
+    color: white;
+    background-color:rgba(0, 100, 0, 0.644)
+      
+  }
+  
+  .form-register h4{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls{
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border: 1px solid #022b23;
+    font-family: 'calibri';
+    font-size: 18px;
+  }
+  
+  .form-register{
+    width: 80%;
+    height: 100%;
+    
+  }
+  
+  .form-register img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .form-register .botons{
+      padding: 1rem;
+      font-weight: 300px;
+      height: 30%;
+      width: 70%;
+      background: #13df24;
+      border-radius: 4rem;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-size: 18px;
+      margin-top: 10rem;
+      transition: all .3s ease-in;
+      color: white;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      text-align: center;
+    
+      
+  }
+  
+  .botons:hover{
+    text-align: center;
+    background-color:aquamarine ;
+  }
+  footer{
+  position: fixed;
+  bottom: 0;
+  background-color: #43e97b;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  height: 10%; 
+  padding: 0px;
+  line-height: normal;
+}
+
+.message button{
+  text-decoration: none;
+}
+

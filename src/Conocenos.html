@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@;400;700&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" >
+        <link rel="icon" href="public/logo-Ganadeando-app.ico">
+        <link rel="stylesheet" href="/css/style.css" />
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <script defer src="/js/index.js"></script>
+        <script src="/js/plusSlides.js"></script>
+        <title>Ganadeando App</title>
+     </head>
+      <header class="header">
+        <nav class="nav">
+          <a href="#" class="logo nav-link" src="/GanadeandoApp/public/logo-Ganadeando-app.ico"></a>
+          <button class="nav-toggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-menu">
+            <li class="nav-menu-item"><a href="/html/Conocenos.html" class="nav-menu-link nav-link">Conócenos</a></li>
+            <li class="nav-menu-item"><a href="/html/Contatcto.html" class="nav-menu-link nav-link">Contacto</a></li>
+            <li class="nav-menu-item"><a href="/html/AnimalBovino.html" class="nav-menu-link nav-link">Animal Bovino</a></li>
+            <li class="nav-menu-item"><a href="/html/index.html" class="nav-menu-link nav-link nav-menu-link_active">Registrarse</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    <body>
+        <div class="container">
+            <div class="mySlides">
+                <img src="/public/Alimentación.png" alt="imagen-1" width="800px" height="400px">
+                  <h3>Nutrición Bovina </h3>
+                <p>La aplicacón Web permite llevar un control en la alimentación en los bovinos, 
+                  permitiendo tener una trazabilidad de la alimentación diaria.</p>
+            </div>
+            <div class="mySlides">
+                <img src="/public/Vacunación.png" alt="" width="800px" height="400px">
+                <h3>Vacunación </h3>
+                <p> LLevar control en la vacunación ayuda en gran medida a reducir enfermedades, 
+                  y la mortalidad  animal.</p>
+            </div>
+            <div class="mySlides">
+                <img src="/public/Nacimientos.png" alt="" width="800px" height="400px">
+                <h3>Nacimientos </h3>
+                <p>LLevar el control de los nuevos nacimientos permite un mayor desarollo para
+                   nuestros finqueros.</p>
+            </div>
+            <div class="mySlides">
+                <img src="/public/Ordeño.png" alt="" width="800px" height="400px">
+                <h3>producción láctea</h3>
+                <p> Registrar la producción láctea de tu ganado te permite calcular de manera eficáz el punto 
+                  de equilibrio para que tu finca sea autosotenible y altamente productiva.
+            </div>
+            
+            <!--Funcionalidad de carrusel con referencias a JavaScript-->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <!--Me permite  ir hacia atrás-->
+            <a class="next" onclick="plusSlides(1)">&#10095;</a><!--Me permite ir hacia  adelante-->
+    
+            <div class="elements">
+                <span class="quadrate" onclick="currentSlide(1)"></span> <!--Me permite con relizar  un click en cada imagen y mostrarla-->
+                <span class="quadrate" onclick="currentSlide(2)"></span><!--Me permite con relizar un click en cada iamgen y -->
+                <span class="quadrate" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </body>
+    <footer>
+      <br>
+      <div class="redes-sociales">Ganadeando App</div>
+      <div class="copyright">© 2022 Todos los derechos reservados.</div>
+  </footer>
+</html>
