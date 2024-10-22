@@ -8,7 +8,7 @@ const InicioSesion = ({ irInicioSesion }) => {
     <div className="container-form sign-up">
       <div className="welcome-back">
         <div className="message">
-          <h1>Bienvenido a Ganadeando App</h1>
+          <h1>Bienvenido SENA</h1>
           <h3>Si ya tienes una cuenta, por favor inicia sesión aquí</h3>
           <button className="sign-up-btn" onClick={irInicioSesion}>
             Iniciar Sesión
